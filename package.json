@@ -1,0 +1,25 @@
+{
+  "name": "pr9",
+  "version": "0.0.1",
+  "description": "",
+  "main": "script.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DesertoRaposa/PR9.git"
+  },
+  "author": "Karen Grigoryan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DesertoRaposa/PR9/issues"
+  },
+  "homepage": "https://github.com/DesertoRaposa/PR9#readme",
+  "devDependencies": {
+    "webpack": "^4.41.5"
+  }
+}
