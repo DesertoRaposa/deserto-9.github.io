@@ -7,19 +7,22 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development --open --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DesertoRaposa/PR9.git"
   },
-  "author": "Karen Grigoryan",
+  "author": "Rezeda Kgairullina",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DesertoRaposa/PR9/issues"
   },
   "homepage": "https://github.com/DesertoRaposa/PR9#readme",
   "devDependencies": {
-    "webpack": "^4.41.5"
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.3"
   }
 }

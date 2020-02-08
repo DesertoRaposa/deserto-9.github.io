@@ -1,4 +1,6 @@
-class CardList {
+import Card from './Card';
+
+export default class CardList {
 	constructor(rootListElem) {
 		this.rootListElem = rootListElem;
 	}

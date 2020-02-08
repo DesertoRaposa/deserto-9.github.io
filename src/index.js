@@ -1,3 +1,7 @@
+import CardList from './CardList';
+import APIClass from './Api';
+import Popup from './Popup';
+
 const list = document.querySelector(".places-list");
 
 let card_list = new CardList(list);

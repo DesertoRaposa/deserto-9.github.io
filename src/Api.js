@@ -1,4 +1,4 @@
-class APIClass {
+export default class APIClass {
 	constructor(myToken, baseURL) {
 		this.baseURL = baseURL;
 		this.myToken = myToken;

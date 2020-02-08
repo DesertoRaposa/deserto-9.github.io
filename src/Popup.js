@@ -1,4 +1,4 @@
-class Popup {
+export default class Popup {
 
 	constructor(typeOfPopup, cardList, api) {
 		this.typeOfPopup = typeOfPopup;
