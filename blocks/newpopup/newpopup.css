@@ -1,0 +1,24 @@
+@import url(./__content/newpopup__content.css);
+@import url(./__close/newpopup__close.css);
+@import url(./__title/newpopup__title.css);
+@import url(./__form/newpopup__form.css);
+@import url(./__form/editformjoberror.css);
+@import url(./__form/editformnameerror.css);
+@import url(./__input/newpopup__input.css);
+@import url(./__button/newpopup__button.css);
+@import url(./__button/submit__button.css);
+@import url(./_is-opened/newpopup_is-opened.css);
+@import url(./__button/popup__button_disabled.css);
+
+.newpopup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
