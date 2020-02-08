@@ -10,20 +10,20 @@ export default class APIClass {
 				authorization: this.myToken
 			}
 		})
-			.then(res => {
-				if (res.ok) {
-					return res.json();
-				}
-				return Promise.reject(`Ошибка: ${res.status}`);
-			})
-			.then((result) => {
-				// не нашёл где используется myID
-				this.myID = result._id; // <---- заводим myID
-				callback(result);
-			})
-			.catch((err) => {
-				console.log(err);
-			});
+		.then(res => {
+			if (res.ok) {
+				return res.json();
+			}
+			return Promise.reject(`Ошибка: ${res.status}`);
+		})
+		.then((result) => {
+			// не нашёл где используется myID
+			this.myID = result._id; // <---- заводим myID
+			callback(result);
+		})
+		.catch((err) => {
+			console.log(err);
+		});
 	}
 
 	editInfo(myName, myAbout, callback) {
