@@ -413,7 +413,7 @@ template {
   border-radius: 50%;
   background-size: cover;
   background-position: center;
-  //background-image: url(../images/avatar.jpg);
+  //background-image: url(af781b1c7e8e4cc8eb810e9a3925eaf0.jpg);
 }
 
 @media screen and (max-width: 980px) {
@@ -536,11 +536,11 @@ template {
 }
 
 .place-card__image_city_karachaevsk {
-  background-image: url(../images/card-image.jpg);
+  background-image: url(43ebd9cd8186725f3fec4778a1fc1b97.jpg);
 }
 
 .place-card__delete-icon {
-  background: url(../images/trash-icon.svg) center no-repeat;
+  background: url(e9774320779b883fed9fb3174611ce82.svg) center no-repeat;
   background-color: transparent;
   border: none;
   width: 18px;
@@ -567,7 +567,7 @@ template {
 }
 
 .place-card__like-icon {
-  background: url(../images/like-inactive.svg) center no-repeat;
+  background: url(39b7c6faafec7b0ccb462b6868c4b4ee.svg) center no-repeat;
   background-color: transparent;
   border: none;
   width: 26px;
@@ -580,7 +580,7 @@ template {
 }
 
 .place-card__like-icon_liked {
-  background-image: url(../images/like-active.svg);
+  background-image: url(a0a3549eebc66dac4971342dbea0423e.svg);
 }
 
 .place-card__like-icon:hover {
@@ -872,7 +872,4 @@ template {
 }
 
 
-body {
-  background-color: #000;
-}
-
+body{background-color:#000}

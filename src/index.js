@@ -8,7 +8,12 @@ const list = document.querySelector(".places-list");
 
 let card_list = new CardList(list);
 
-const API = new APIClass("2374ea76-9940-4bf3-8811-73a7f8930642", "http://95.216.175.5/cohort6/");
+let serverURL = 'https://praktikum.tk/cohort6/';
+if (process.env.NODE_ENV == 'developement') {
+    serverURL = 'https://praktikum.tk/cohort6/';
+}
+
+const API = new APIClass("2374ea76-9940-4bf3-8811-73a7f8930642", serverURL);
 
 API.loadProfile(function (data) {
     const userInfoName = document.querySelector('.user-info__name');
